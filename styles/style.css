@@ -8,8 +8,8 @@
 
 h1 {
     color: white;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 body {
@@ -39,4 +39,64 @@ body {
 
 .flight.title {
     font-weight: bolder;
+}
+
+/* Responsiveness */
+
+/* 4K screen */
+@media (max-width: 2560px) {
+    .imgContainer img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* Desktop */
+@media (max-width: 1440px) {
+    .imgContainer img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+    .imgContainer img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .imgContainer img {
+        width: 100%;
+    }
+}
+
+/* Mobile L */
+@media (max-width: 425px) {
+    .imgContainer img {
+        width: 100%;
+    }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+    .imgContainer img {
+        width: 100%;
+    }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+    .imgContainer img {
+        width: 100%;
+    }
 }

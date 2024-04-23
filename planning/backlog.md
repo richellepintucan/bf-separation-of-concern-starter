@@ -5,7 +5,7 @@
 Basic Layout and Design:
 
 Set up a clean and intuitive user interface. Display a list of flights with
-essential details (e.g., flight number, departure time, arrival time,
+essential details (e.g., flight number, departure time, arrival time
 destination).
 
 Data Display:
