@@ -1,10 +1,14 @@
-# Image gallery
+# Flights
 
-> Simple list of flights
+## Project definition
+
+> This simple project provide users with access to information about available
+> flights
 
 ## Table of contents
 
-- [Image gallery](#image-gallery)
+- [Flights](#flights)
+  - [Project definition](#project-definition)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -33,7 +37,13 @@
 
 ## Setup
 
-clone the repo and start using the stop watch.
+Create a new repo from the template
+
+1. Clone the repo from your GitHub account
+   > git clone `HTTPS link`
+2. Open Visual Studio Code
+3. Run npm i
+4. Open index.html
 
 ## Code Examples
 
@@ -68,6 +78,12 @@ List of features ready and Todos for future development
 
 - Flight Details: Offer users the option to view more detailed information about
   each flight
+
+To-do list:
+
+- Setup Development Environment
+- Design User Interface (UI)
+- Implementation of Separation of Concerns
 
 ## Status
 
